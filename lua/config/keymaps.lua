@@ -5,3 +5,4 @@ local map = vim.keymap.set
 map("i", "jk", "<esc>")
 map("n", "<leader>r", "<cmd>RunCode<cr>", { desc = "Run Code" })
 map("n", "<leader>rc", "<cmd>RunClose<cr>", { desc = "Run Close" })
+map("n", "<leader>p", '"0p', { silent = true })
