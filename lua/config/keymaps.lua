@@ -6,6 +6,8 @@ map("i", "jk", "<esc>")
 map("n", "<leader>r", "<cmd>RunCode<cr>", { desc = "Run Code" })
 map("n", "<leader>rc", "<cmd>RunClose<cr>", { desc = "Run Close" })
 map("n", "<leader>p", '"0p', { silent = true })
+map("n", "<leader>d", '"_d', { silent = true })
+map("n", "<leader>c", '"_c', { silent = true })
 
 map("t", "<esc>", [[<C-\><C-n>]])
 

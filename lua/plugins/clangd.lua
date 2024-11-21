@@ -13,6 +13,9 @@ return {
                     "--function-arg-placeholders",
                     "--fallback-style=llvm",
                 },
+                init_options = {
+                    fallbackFlags = { "--std=c++17" },
+                },
             },
         },
     },
