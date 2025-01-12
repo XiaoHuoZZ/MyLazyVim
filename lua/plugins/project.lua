@@ -13,6 +13,7 @@ return {
                 ".vscode",
                 ".idea",
             },
+            manual_mode = true,
         })
         require("telescope").load_extension("projects")
         vim.keymap.set("n", "<leader>fp", "<cmd>Telescope projects<cr>", { desc = "Find Projects" })

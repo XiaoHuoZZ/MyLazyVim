@@ -11,10 +11,9 @@ map("n", "c", '"ac', { silent = true })
 map("v", "d", '"ad', { silent = true })
 map("v", "c", '"ac', { silent = true })
 map("n", "<leader>p", '"ap', { silent = true })
-map("n", "<leader>d", '"_d', { silent = true })
+map("n", "<leader>d", '"+d', { silent = true })
 map("n", "<leader>c", '"+c', { silent = true })
-map("n", "<leader>d", '"+dd', { silent = true })
-map("v", "<leader>d", '"+dd', { silent = true })
+map("v", "<leader>d", '"+d', { silent = true })
 
 map("t", "<esc>", [[<C-\><C-n>]])
 
